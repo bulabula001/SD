@@ -1,0 +1,6 @@
+
+cmd:
+
+	g++  -g main.cpp -o ../Exec/main /usr/include/jsoncpp/libjson.a -L /usr/lib64/mysql -lmysqlclient
+
+	gcc  -g msg_send.c -o ../Exec/msg_send	
